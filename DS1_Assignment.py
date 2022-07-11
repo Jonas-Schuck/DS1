@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 # you may change the path of the dataset
-data_input = pd.read_csv('C:/Users/User/Dropbox/S2/DS1/Progaufgabe/Datensatz_Diabetes/diabetes_data_upload.csv', header=0)
+data_input = pd.read_csv('diabetes_data_upload.csv', header=0)
 
 data_processed = data_input.copy()
 for i in data_input:
